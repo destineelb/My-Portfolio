@@ -81,3 +81,56 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+
+
+/* Homework 3 Responsive Layout */
+
+/* Makes sizing easier */
+* {
+    box-sizing: border-box;
+}
+
+/* Flexbox Layout */
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Two Columns */
+.flex-container section {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Images Fit the Screen */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mobile Screens */
+@media (max-width: 600px) {
+
+    body {
+        margin: 8px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    header {
+        padding: 16px;
+    }
+
+    section {
+        padding: 16px;
+    }
+}
