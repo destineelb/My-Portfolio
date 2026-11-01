@@ -1,0 +1,83 @@
+
+/* My Homework 1 Stylesheet */
+
+/* Cutie Pop Font */
+@font-face {
+    font-family: "Cutie Pop";
+    src: url("CutiePop.ttf");
+}
+
+/* Whole webpage */
+body {
+    background-color: #FFFFFF;
+    color: black;
+    font-family: "Cutie Pop", cursive;
+    margin: 20px;
+}
+
+/* Header */
+header {
+    background-color: #FFD6E7;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 2px solid #C13570;
+}
+
+/* Navigation */
+nav {
+    background-color: #E0E0E0;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #C13570;
+}
+
+/* Navigation links */
+nav a {
+    color: #C13570;
+    margin: 10px;
+}
+
+/* Sections */
+section {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 2px solid #E0E0E0;
+}
+
+/* Class selector */
+.pink-box {
+    background-color: #FFD6E7;
+}
+
+/* ID selector */
+#welcome {
+    color: #C13570;
+}
+
+/* Headings */
+h1 {
+    color: #C13570;
+}
+
+h2 {
+    color: #C13570;
+}
+
+h3 {
+    color: #C13570;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #E0E0E0;
+    text-align: center;
+    padding: 15px;
+}
